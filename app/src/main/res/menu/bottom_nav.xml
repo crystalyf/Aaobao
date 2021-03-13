@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/popular"
+        android:icon="@drawable/nav_popular"
+        android:contentDescription="主页"
+        android:title="主页" />
+
+    <item
+        android:id="@+id/tao"
+       android:icon="@drawable/ic_we"
+        android:contentDescription="微淘"
+        android:title="微淘" />
+
+    <item
+        android:id="@+id/message"
+        android:icon="@drawable/nav_message"
+        android:contentDescription="消息"
+        android:title="消息" />
+
+    <item
+        android:id="@+id/article"
+        android:icon="@drawable/nav_article"
+        android:contentDescription="购物车"
+        android:title="购物车" />
+
+    <item
+        android:id="@+id/person"
+        android:icon="@drawable/nav_person"
+        android:contentDescription="我的淘宝"
+        android:title="我的淘宝" />
+</menu>

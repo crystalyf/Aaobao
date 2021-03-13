@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:alignmentMode="alignBounds"
+    android:columnCount="5"
+    android:orientation="horizontal"
+    android:rowCount="2"
+    android:useDefaultMargins="false">
+
+    <include layout="@layout/item_popular_plate_item" />
+    <include layout="@layout/item_popular_plate_item" />
+    <include layout="@layout/item_popular_plate_item" />
+    <include layout="@layout/item_popular_plate_item" />
+    <include layout="@layout/item_popular_plate_item" />
+    <include layout="@layout/item_popular_plate_item" />
+    <include layout="@layout/item_popular_plate_item" />
+    <include layout="@layout/item_popular_plate_item" />
+    <include layout="@layout/item_popular_plate_item" />
+    <include layout="@layout/item_popular_plate_item" />
+
+</GridLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="SmoothNestedScrollLayout">
+        <attr name="nest_scroll_top_view" format="reference" />
+        <attr name="nest_scroll_inner_header" format="reference" />
+        <attr name="nest_scroll_content" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="SmoothNestedScrollLayout2">
+        <attr name="nest_scroll_top_view2" format="reference" />
+        <attr name="nest_scroll_inner_header2" format="reference" />
+        <attr name="nest_scroll_content2" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="NestedOuterScrollView">
+        <attr name="nest_scroll_top_view3" format="reference" />
+        <attr name="nest_scroll_inner_header3" format="reference" />
+        <attr name="nest_scroll_content3" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="CircleImageView">
+        <attr name="strokeWidth" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="FilletImageView">
+        <attr name="radius" format="dimension" />
+    </declare-styleable>
+
+</resources>

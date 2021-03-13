@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_search"
+    app:startDestination="@+id/navigation_keyword">
+
+    <fragment
+        android:id="@+id/navigation_keyword"
+        android:name="org.bubbble.taobao.ui.search.keyword.KeywordFragment"
+        android:label="关键字"
+        tools:layout="@layout/fragment_keyword" >
+        <action
+            android:id="@+id/action_navigation_keyword_to_navigation_relate"
+            app:destination="@id/navigation_relate"
+            app:launchSingleTop="true"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_relate"
+        android:name="org.bubbble.taobao.ui.search.relate.RelateFragment"
+        android:label="关键字"
+        tools:layout="@layout/fragment_relate" >
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_result"
+        android:name="org.bubbble.taobao.ui.search.result.ResultFragment"
+        android:label="关键字"
+        tools:layout="@layout/fragment_result"
+        app:launchSingleTop="true"/>
+
+</navigation>

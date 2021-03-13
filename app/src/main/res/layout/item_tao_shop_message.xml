@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_width="76dp"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/margin_small">
+
+    <org.bubbble.taobao.widget.CircleImageView
+        android:id="@+id/shop_photo"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        app:strokeWidth="1dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/margin_small"
+        android:paddingBottom="@dimen/margin_small"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:text="CherryWintour"
+        android:textSize="14sp"
+        android:textColor="?android:textColorPrimary"/>
+
+</LinearLayout>

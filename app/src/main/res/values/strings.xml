@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">taobao</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="behavior_rv">org.bubbble.taobao.base.behavior.SlideDownShowRVBehavior</string>
+    <string name="behavior_head_pin">org.bubbble.taobao.base.behavior.HeadPinBehavior</string>
+    <string name="behavior_mask">org.bubbble.taobao.base.behavior.MaskHeadBehavior</string>
+
+    <string name="follow">关注</string>
+    <string name="news">新上</string>
+    <string name="live">直播</string>
+    <string name="welfare">福利</string>
+    <string name="my_test">我的测试</string>
+    <string name="system_test">系统测试</string>
+
+
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.popular.PopularFragment">
+
+    <!-- 固定头部 -->
+    <include android:id="@+id/popular_head"
+        layout="@layout/popular_head"/>
+
+    <org.bubbble.taobao.widget.SmoothNestedScrollLayout
+        android:id="@+id/scroll_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background_secondary"
+        app:nest_scroll_content="@id/content_view"
+        app:nest_scroll_top_view="@id/top_view"
+        app:nest_scroll_inner_header="@id/inner_header">
+
+        <LinearLayout
+            android:id="@+id/top_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include android:id="@+id/popular_banner"
+                layout="@layout/popular_banner"/>
+
+            <include
+                android:id="@+id/popular_plate"
+                layout="@layout/item_popular_plate"/>
+
+            <include layout="@layout/popular_ad" />
+
+        </LinearLayout>
+
+        <include
+            android:id="@+id/inner_header"
+            layout="@layout/popular_list_category"/>
+
+        <FrameLayout
+            android:id="@+id/content_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!-- 底部RV -->
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/article_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </FrameLayout>
+
+    </org.bubbble.taobao.widget.SmoothNestedScrollLayout>
+
+</LinearLayout>
